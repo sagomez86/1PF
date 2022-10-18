@@ -1,0 +1,6 @@
+
+  <mat-selection-list #opciones [multiple]="false">
+    <mat-list-option *ngFor="let opcion of opcionesMenu" [value]="opcion">
+     <span appTextoa20px>{{opcion}}</span> 
+    </mat-list-option>
+  </mat-selection-list>
